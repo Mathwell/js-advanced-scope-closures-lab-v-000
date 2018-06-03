@@ -1,3 +1,3 @@
-function produceDrivingRange{
+let produceDrivingRange=function{
 
 }
