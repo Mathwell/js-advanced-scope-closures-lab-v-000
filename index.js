@@ -6,3 +6,10 @@ function produceDrivingRange(range){
      } else {return `within range by ${range-distance}`}
    }
 }
+
+
+function produceTipCalculator(){
+  return function(){
+
+  }
+}
