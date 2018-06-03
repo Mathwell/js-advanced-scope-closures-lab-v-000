@@ -16,6 +16,8 @@ function produceTipCalculator(fare){
 
 function createDriver(){
   return class{
-
+   constructor(name){
+     this.name=name;
+   }
   }
 }
