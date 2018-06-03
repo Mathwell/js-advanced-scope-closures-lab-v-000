@@ -1,6 +1,6 @@
 function produceDrivingRange(range){
    return function(start,end){
-     if ((end-start)>range) {
+     if (Math.abs(end-start)>range) {
        return false
      } else {return `within range by ${range}`}
    }
